@@ -1,0 +1,156 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p
+,blockquote,pre,a,abbr, acronym,address,big,cite,code,del,dfn,em,font,figure,figcaption,
+img,ins,kbd,q,s,samp,small,strike,strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption, tbody,tfoot,thead,tr,th,td{border:0;outline:0;vertical-align:baseline; background:transparent;margin:0;padding:0;}
+/*body{line-height:1;}*/
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+html{
+    padding-left:5%;
+    padding-right:5%;
+    background:#E8EAF6;
+}
+body{
+    background-color:white;
+}
+
+div.top-1{
+    padding:1em;
+    background-color:#1A237E;
+}
+h1.top-2 {
+    line-height:1.5em;
+    color:white;
+}
+p.top-3{
+    color:white;
+    font-family:Times New Roman, sans-serif;
+}
+header div.top-menu{
+    padding:0 0 0 0.7em;
+    background-color:#3F51B5;
+}
+ul li.menuItem{
+    display:inline-block;
+    color:#00B0FF;
+    padding:0.3em;
+}
+ul li a.menu-link{
+    color:#00B0FF;
+}
+li.menuItem:hover{
+    color:white;
+    background-color: #F50057;
+}
+
+section{
+    padding:0.5em 0 0.5em 0;
+    background-color:#E8EAF6;
+}
+.section-1-top{
+    padding:0.5em;
+    background-color:white;
+}
+.section-2-top , .section-3-top{
+    padding:0 0.5em 0.5em 0.5em;
+    background-color:white;
+}
+section h2.article-title{
+    background-color:#7986CB;
+    padding:1em;
+    color:white;
+    font-size:1em;
+    /*font-size:1em;*/
+}
+.section-1 figure.first-image img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.section-1 .first-image figcaption{
+    background-color:#C5CAE9;
+    padding:0.5em 0 0.5em 1em;
+    color:#7990A3;
+    font-family:Times New Roman, sans-serif;
+}
+.section-1 .travel-city-description{
+    padding:0.5em 1em 1em 1em;
+    font-family:Times New Roman, sans-serif;
+}
+
+.section-1 .travel-city-description a.city-link{
+    font-weight:bold;
+    color:#00B0FF;
+}
+figure.icon{
+    text-align:right;
+    padding:0 1em 0.5em 0;
+}
+.section-2-top{
+    padding-top:0.5em;
+}
+#relatedPhotos-image-1{
+    display:block;
+    float:left;
+}
+#relatedPhotos-image-2{
+    display:block;
+    float:left;
+    padding-left:4px;
+    padding-right:4px;
+}
+#relatedPhotos-image-3{
+    display:block;
+}
+/*figure.relatedPhotos{
+    padding-bottom:0.5em;
+}*/
+.section-3-top{
+    padding-top:0.5em;
+}
+.section-3{
+    padding-bottom:1em;
+}
+.section-1 , .section-3 , .section-2{
+    border-color: #7986cb;
+    border-style:solid;
+    border-width:0.01em;
+}
+
+
+.section-3 p.travel-reviews-author{
+    padding:0.5em 0 0.5em 1em;
+    color:#C5CAE9;
+    font-family:Times New Roman,sans-serif;
+}
+.section-3 p.travel-reviews-author time{
+    color:#F5A2C1;
+}
+.section-3 p.travel-reviews-words{
+    padding-bottom:0.5em;
+    margin:0 1em 0 1em;
+    border-bottom:1px solid;
+    font-family:Times New Roman, sans-serif;
+}
+
+footer{
+    padding:1.3em 0 1.3em 1em;
+    background-color:#1A237E;
+}
+footer .footer-link{
+    color:#00B0FF;
+}
+footer .footer-link span{
+    color:white;
+}
+footer .copyright{
+    padding-top:0.6em;
+    color:white;
+    font-family:Times New Roman, sans-serif;
+}
