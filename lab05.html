@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg row">
+        <div class="col-sm-4">
+            <div class="text-center navbar-text text-center">
+                <h1 class="page-header">Share Your Travels</h1>
+                <p><em>Let us know where you have</em></p>
+            </div>
+        </div>
+        <div class="col-sm-8" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-justified">
+                <li class="nav-item"><a class="nav-link text-dark" href="upload.html">Upload</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Related Photos</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="card col-sm-9">
+            <div class="card-body">
+                <h2 class="card-title">NEW YORK - CENTRAL PARK</h2>
+
+                <p class="card-text"><em>Conservatory Pond in Central Park</em></p>
+                <a href="images/large-central-park.jpg"><img class="img-fluid text-center"
+                                                             src="images/large-central-park.jpg"
+                                                             rel="central-park"/></a>
+
+                <p>This photo of Conservatory Pond in<a href="#"> Central-Park </a>in <a href="#"> New York
+                    City </a>was
+                    taken on October 22,2016 with a Canon EOS 30D camera
+                </p>
+                <div class="text-right">
+                    <div class="btn-group">
+                        <a class="btn btn-light"><img class="img-fluid" src="images/icon_download.png"
+                                                      alt="icon_comment"></a>
+                        <a class="btn btn-light"><img class="img-fluid" src="images/icon_mail.png" alt="icon_mail"></a>
+                        <a class="btn btn-light"><img class="img-fluid" src="images/icon_map.png" alt="icon_map"></a>
+                        <a class="btn btn-light"><img class="img-fluid" src="images/icon_up.png" alt="up"></a>
+                        <a class="btn btn-light"><img class="img-fluid" src="images/icon_down.png" alt="down"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">RELATED PHOTOS</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <a href="images/related-large1.jpg"><img class="img-fluid d-block w-100"
+                                                                         src="images/related-square1.jpg"
+                                                                         rel="img-1"></a>
+                            </div>
+                            <div class="img-fluid carousel-item">
+                                <a href="images/related-large2.jpg"><img class="d-block w-100"
+                                                                         src="images/related-square2.jpg"
+                                                                         rel="image-2"></a>
+                            </div>
+                            <div class="img-fluid carousel-item">
+                                <a href="images/related-large3.jpg"><img class="d-block w-100"
+                                                                         src="images/related-square3.jpg"
+                                                                         rel="image-3"></a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                           data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                           data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">REVIEWS</h2>
+                    <div class="text-center">
+                        <div class = "row">
+                        <div class="col-3 col-sm-12">
+                            <p id="headingOne"><em><strong>Ricardo</strong></em></p>
+                        </div>
+                        <div class="col-3 col-sm-12">
+                            <a class="badge badge-pill badge-info text-center" data-toggle="collapse"
+                                    data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <time datetime="2016-02-23"><em><strong>2016-05-23</strong></em></time>
+                            </a>
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"><p>Easy on the HDR
+                                buddy.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <hr>
+                        <div class = "row">
+                        <div class="col-3 col-sm-12">
+                            <p id="headingTwo"><em><strong>Susan</strong></em></p>
+                        </div>
+                        <div class="col-3 col-sm-12">
+                            <a class="badge badge-pill badge-info text-center" data-toggle="collapse"
+                                    data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseTwo">
+                                <time datetime="2016-11-18"><em><strong>2016-11-18</strong></em></time>
+                            </a>
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                                <p>I love Central Park.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <nav class="navbar navbar-expand-lg row justify-content-center">
+            <div class="col-sm-8">
+                <ul class="navbar-nav nav-justified">
+                    <li class="nav-item"><a class="nav-link text-info" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-info" href="#">Browser</a></li>
+                    <li class="nav-item"><a class="nav-link text-info" href="#">Search</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="nav-text"><em>Copyright &copy 2017 Share Your Travels</em></p>
+    </div>
+
+</body>
+
+</html>

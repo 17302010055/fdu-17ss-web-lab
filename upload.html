@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg row">
+            <div class="col-sm-4">
+                <div class="text-center navbar-text text-center">
+                    <h1 class="page-header">Share Your Travels</h1>
+                    <p><em>Let us know where you have</em></p>
+                </div>
+            </div>
+
+
+            <div class="col-sm-8" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-justified">
+                    <li class="nav-item"><a class="nav-link text-dark" href="lab05.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Feeling Lucky</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">User</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <form>
+
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                    <input class="form-control" type="text" id="Title" value="Give your photo a descriptive name">
+                </div>
+                <div class="form-group">
+                    <p><strong>Description</strong></p>
+                    <label for="Textarea1">Example textarea</label>
+                    <textarea class="form-control" id="Textarea1" rows="3">Adding a rich description will help with search results</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="FormControlSelect1">Continent</label>
+                    <select class="form-control" id="FormControlSelect1">
+                        <option>Choose continent</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="FormControlSelect2">Country</label>
+                    <select class="form-control" id="FormControlSelect2">
+                        <option>Choose country</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="City">City</label>
+                    <input class="form-control" type="text" id="City">
+                </div>
+                <div class="form-group">
+                    <label>copyright?</label>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="copyright" id="Radios1" value="option1"
+                               checked>
+                        <label class="form-check-label" for="Radios1">
+                            All rights reserved
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="copyright" id="Radios2" value="option2"
+                               checked>
+                        <label class="form-check-label" for="Radios2">
+                            Creative Commons
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p>Creative Commons Types</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Attribution
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            Noncommercial
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3">
+                            No Derivative Works
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                        <label class="form-check-label" for="defaultCheck">
+                            I accept the software license
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label for="Number">Rate this photo:</label>
+                            <br>
+                            <input type="number" id="Number" class = "form-control"/>
+                        </div>
+                        <div class="col-sm-7 offset-sm-1">
+                            <label for="colorCollection">Color Collection:</label>
+                            <br>
+                            <input type="color" id="colorCollection" class = "form-control"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class = "row">
+                    <div class="col-sm-7">
+                            <label for="Date">Date Taken:</label>
+                            <br>
+                            <input type="date" id="Date" class="form-control"/>
+                    </div>
+                    <div class="col-sm-4 offset-sm-1">
+                            <label for="Time">Time Taken:</label>
+                            <br>
+                            <input type="time" id="Time" class = "form-control"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked>Submit
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> Clear
+                        </label>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
