@@ -176,7 +176,6 @@ mysql_select_db($mysql_database);
         </div>
     </div>
 
-
 </footer>
 
 
